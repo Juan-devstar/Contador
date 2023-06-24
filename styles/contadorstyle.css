@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0c0c0c;
+    font-family: Arial, sans-serif;
+  }
+  
+  #countdown {
+    text-align: center;
+    display: inline-block;
+    padding: 8px 24px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    font-size: 2em;
+
+  }
+  
+  #countdown ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #countdown ul li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+  
+  #countdown ul li span {
+    display: block;
+    padding: 50px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-size: 2em;
+  }
+  
+
+
