@@ -38,5 +38,5 @@ function countdownTimer(endDate) {
   }
   
   // Define la fecha de finalización aquí (Año, Mes, Día)
-  countdownTimer("2023, 12, 31");
+  countdownTimer("2023, 08, 27");
   
